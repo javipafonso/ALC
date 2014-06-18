@@ -1,0 +1,21 @@
+#! /usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# **** Ejercicio 3 ****
+# Javier Pérez Afonso
+
+import re
+
+def tokenizer(entry):
+	
+	
+	exp_num ="(\d+.|,\d+)|(\d+:\d+\w)." #cualquier numero y horas
+	reg_exp= exp_num
+	reg_final = re.compile(reg_exp|re.U)
+	resultado = re.finditer(reg_exp,entry)
+	for i in resultado:
+		print entry[i.start():i.end()],'\n'
+
+f = open("entrada_tokenizador.txt")
+for linea in f:
+	tokenizer(linea)

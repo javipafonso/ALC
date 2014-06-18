@@ -1,0 +1,25 @@
+#! /usr/bin/env python
+# -*- coding: utf-8 -*
+import nltk
+from nltk.corpus import cess_esp
+#Pregunta 1.a
+#etiquetado=cess_esp.tagged_words()
+#etiquetas=set(tag for (word,tag) in etiquetado)
+#for i in etiquetado:
+#  print i[1]
+#otra forma simplificada
+etiquetado=cess_esp.tagged_words(simplify_tags=True)
+etiquetas=set(tag for (word,tag) in etiquetado)
+print etiquetas
+#pregunta 1.b
+for field in cess_esp.fileids():
+  vocabulario = set([w.lower() for w in cess_esp.words(field)])
+for i in vocabulario:
+  print i[0]
+#Pregunta 1.c
+etiquetado=cess_esp.tagged_words()
+for i in etiquetado:
+  print i[0]," ",i[1]
+#Pregunta 1.d
+t=cess_esp.parsed_sents()[0]
+print t

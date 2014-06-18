@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<article lng="es">
+  <sentence> 
+    <S arg="arg1" clausetype="completive" coord="yes" func="cd" impersonal="no" tem="pat">
+      <S clausetype="completive" impersonal="no">
+        <sn arg="arg1" func="suj" tem="tem">
+          <spec gen="f" num="p">
+            <d gen="f" lem="el" num="p" pos="da0fp0" postype="article" wd="Las"/>
+          </spec>
+          <grup.nom gen="f" num="p">
+            <n gen="f" lem="reserva" num="p" origin="deverbal" originlexicalid="verb.reservar.2.transitive" pos="ncfp000" postype="common" sense="16:09626584" toreview="needsreview" toreviewcomment="HEAD lexicalid:verb.reservar.2.transitive" wd="reservas"/>
+            <sp arg="arg1" func="cn" tem="pat" toreview="needsreview" toreviewcomment="B.1.o/q/r.ii func:cn;arg:arg1;tem:pat">
+              <prep>
+                <s lem="de" pos="sps00" postype="preposition" wd="de"/>
+              </prep>
+              <sn complex="yes">
+                <grup.nom coord="yes">
+                  <grup.nom gen="m" num="s">
+                    <n gen="m" lem="oro" num="s" pos="ncms000" postype="common" sense="16:10487505" wd="oro"/>
+                  </grup.nom>
+                  <coord>
+                    <c lem="y" pos="cc" postype="coordinating" wd="y"/>
+                  </coord>
+                  <grup.nom gen="f" num="p">
+                    <n gen="f" lem="divisa" num="p" pos="ncfp000" postype="common" sense="16:05149395" wd="divisas"/>
+                  </grup.nom>
+                </grup.nom>
+              </sn>
+            </sp>
+            <sp arg="argM" func="cn" tem="loc" toreview="needsreview" toreviewcomment="B.1.b.sp func:cn;arg:argM;tem:loc">
+              <prep>
+                <s lem="de" pos="sps00" postype="preposition" wd="de"/>
+              </prep>
+              <sn entityref="ne" ne="location">
+                <grup.nom>
+                  <n entityref="ne" lem="Rusia" ne="location" pos="np0000l" postype="proper" wd="Rusia"/>
+                </grup.nom>
+              </sn>
+            </sp>
+          </grup.nom>
+        </sn>
+        <grup.verb>
+          <v els="b2" lem="subir" mood="indicative" num="p" person="3" pos="vmis3p0" postype="main" tense="past" wd="subieron"/>
+        </grup.verb>
+        <sn arg="arg2" entityref="ne" func="cd" functype="quantitative" ne="number" tem="ext">
+          <spec gen="m" num="p">
+            <z entityref="ne" lem="800" ne="number" wd="800"/>
+          </spec>
+          <grup.nom gen="m" num="p">
+            <n gen="m" lem="millón" num="p" pos="ncmp000" postype="common" sense="16:09902865" wd="millones"/>
+            <sp>
+              <prep>
+                <s lem="de" pos="sps00" postype="preposition" wd="de"/>
+              </prep>
+              <grup.nom gen="m" num="p">
+                <z entityref="ne" lem="dólar" ne="number" pos="zm" postype="currency" wd="dólares"/>
+              </grup.nom>
+            </sp>
+          </grup.nom>
+        </sn>
+      </S>
+      <coord>
+        <c lem="y" pos="cc" postype="coordinating" wd="y"/>
+      </coord>
+      <S clausetype="completive" impersonal="no">
+        <sn arg="argM" entityref="ne" func="cc" ne="date" tem="tmp">
+          <spec gen="m" num="s">
+            <d gen="m" lem="el" num="s" pos="da0ms0" postype="article" wd="el"/>
+          </spec>
+          <grup.nom gen="m" num="s">
+            <w entityref="ne" lem="[??:26/5/??:??.??]" ne="date" wd="26_de_mayo"/>
+          </grup.nom>
+        </sn>
+        <sn arg="arg1" elliptic="yes" func="suj" tem="tem"/>
+        <grup.verb>
+          <v els="c2" lem="equivaler" mood="indicative" num="p" person="3" pos="vmii3p0" postype="main" tense="imperfect" wd="equivalían"/>
+        </grup.verb>
+        <sp arg="arg2" func="creg" tem="atr">
+          <prep>
+            <s lem="a" pos="sps00" postype="preposition" wd="a"/>
+          </prep>
+          <sn entityref="ne" ne="number">
+            <spec gen="m" num="p">
+              <z entityref="ne" lem="19100" ne="number" wd="19.100"/>
+            </spec>
+            <grup.nom gen="m" num="p">
+              <n gen="m" lem="millón" num="p" pos="ncmp000" postype="common" sense="16:09902865" wd="millones"/>
+              <sp>
+                <prep>
+                  <s lem="de" pos="sps00" postype="preposition" wd="de"/>
+                </prep>
+                <grup.nom gen="m" num="p">
+                  <z entityref="ne" lem="dólar" ne="number" pos="zm" postype="currency" wd="dólares"/>
+                </grup.nom>
+              </sp>
+            </grup.nom>
+          </sn>
+        </sp>
+      </S>
+      <f lem="," pos="fc" punct="comma" wd=","/>
+    </S>
+    <grup.verb>
+      <v els="a32" lem="informar" mood="indicative" num="s" person="3" pos="vmis3s0" postype="main" tense="past" wd="informó"/>
+    </grup.verb>
+    <sadv arg="argM" func="cc" tem="tmp">
+      <grup.adv>
+        <r lem="hoy" pos="rg" wd="hoy"/>
+      </grup.adv>
+    </sadv>
+    <sn arg="arg0" func="suj" tem="agt">
+      <spec gen="m" num="s">
+        <d gen="m" lem="uno" num="s" pos="di0ms0" postype="indefinite" wd="un"/>
+      </spec>
+      <grup.nom gen="m" num="s">
+        <n gen="m" lem="comunicado" lexicalframetype="result" lexicalid="noun.comunicado.1.result" num="s" origin="deverbal" originlexicalid="verb.comunicar.1.ditransitive" pos="ncms000" postype="common" sense="16:05009963" toreview="reviewed" toreviewcomment="HEAD lexicalid:noun.comunicado.1.result" wd="comunicado"/>
+        <sp arg="arg0" func="cn" tem="agt" toreview="reviewed" toreviewcomment="A.4 func:cn;arg:arg0;tem:agt">
+          <prep>
+            <s contracted="yes" gen="m" lem="del" num="s" pos="spcms" postype="preposition" wd="del"/>
+          </prep>
+          <sn entityref="ne" ne="organization">
+            <grup.nom gen="m" num="s">
+              <n entityref="ne" lem="Banco_Central" ne="organization" pos="np0000o" postype="proper" sense="16:06183328" wd="Banco_Central"/>
+            </grup.nom>
+          </sn>
+        </sp>
+      </grup.nom>
+    </sn>
+    <f lem="." pos="fp" punct="period" wd="."/>
+  </sentence>
+ </article>
